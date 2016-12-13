@@ -12,5 +12,7 @@ const mylog = new logger({
 
 mylog.log('Un message');
 
-
+// 2 - Réécrire de maniere asynchrone
+// 3 - npm install fs-promise
+// réécrire avec des promesses
 
