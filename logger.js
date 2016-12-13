@@ -16,6 +16,10 @@ class logger {
         fs.writeFile(this.file+"Async", msg,()=>console.log("Async write file handled"))
     }
 
+    reset(){
+
+    }
+
 }
 
 module.exports = logger;

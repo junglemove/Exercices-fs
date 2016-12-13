@@ -15,7 +15,9 @@ console.log("End sync");
 
 // 2 - Réécrire de maniere asynchrone
 // 3 - npm install fs-promise
-// réécrire avec des promesses
 console.log("Begin async");
 mylog.logAsync('Un message async');
 console.log("End async");
+
+
+// 4 - réécrire Asynch avec des promesses
