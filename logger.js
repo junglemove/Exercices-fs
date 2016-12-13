@@ -12,7 +12,9 @@ class logger {
         fs.writeFileSync(this.file, msg);
     }
 
-
+    logAsync (msg) {
+        fs.writeFile(this.file+"Async", msg,()=>console.log("Async write file handled"))
+    }
 
 }
 
