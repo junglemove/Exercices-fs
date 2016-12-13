@@ -1,0 +1,20 @@
+/*****/
+/*index.js:*/
+const logger = require('./logger');
+const path = require('path');
+
+logger.file = path.resolve(__dirname,"/app.log"); // __dirname = usefull variable + use of nodejs Path lib
+logger.log('Un message');
+
+logger.reset();
+
+/*****/
+/*logger.js*/
+const fs = require('fs');
+module.export.file = "default.log";
+module.export.log = function(msg){
+    fs.appendFile(module.export.file, msg); //
+}
+
+/*****/
+npm install thenify => lib that assists promises creation
