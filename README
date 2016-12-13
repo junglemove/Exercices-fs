@@ -13,7 +13,7 @@ logger.reset();
 const fs = require('fs');
 module.export.file = "default.log";
 module.export.log = function(msg){
-    fs.appendFile(module.export.file, msg); //
+    fs.appendFile(module.export.file, msg); // append the mssg at the end of the file if exists
 }
 
 /*****/
