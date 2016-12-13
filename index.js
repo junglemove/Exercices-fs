@@ -19,5 +19,5 @@ console.log("Begin async");
 mylog.logAsync('Un message async');
 console.log("End async");
 
-
 // 4 - réécrire Asynch avec des promesses
+mylog.logAsyncWithPromises('Un message aves promises');
