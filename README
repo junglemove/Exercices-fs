@@ -18,3 +18,7 @@ module.export.log = function(msg){
 
 /*****/
 npm install thenify => lib that assists promises creation
+
+/*****/
+npm list -g --depth=0 => list global pkg installed
+npm outdated -g => list global pkg to update
